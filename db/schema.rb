@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_28_164326) do
+ActiveRecord::Schema.define(version: 2020_01_28_185557) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,7 +36,6 @@ ActiveRecord::Schema.define(version: 2020_01_28_164326) do
   end
 
   create_table "shows", force: :cascade do |t|
-    t.string "name"
     t.string "title"
     t.integer "season_number"
     t.integer "total_episodes"
