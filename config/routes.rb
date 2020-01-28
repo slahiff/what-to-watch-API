@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resources :reviews, except: %i[new edit]
   resources :shows, except: %i[new edit]
   # RESTful routes
+  resources :shows, except: %i[new edit]
+  resources :reviews, except: %i[new edit]
   resources :examples, except: %i[new edit]
 
   # Custom routes
