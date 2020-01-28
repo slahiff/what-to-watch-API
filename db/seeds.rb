@@ -9,3 +9,16 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+# Show.create([
+#   {
+#     name:
+#     title:
+#     season_number:
+#     total_episodes:
+#     network:
+#     release_date:
+#     trailer_url:
+#   }
+#   ])
+#
+#   p "Created #{Show.count} records."
