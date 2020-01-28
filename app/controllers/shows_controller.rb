@@ -49,7 +49,7 @@ class ShowsController < OpenReadController
 
   # Only allow a trusted parameter "white list" through.
   def show_params
-    params.require(:show).permit(:name, :title, :season_number,
+    params.require(:show).permit(:title, :season_number,
                                  :total_episodes, :network, :release_date,
                                  :trailer_url)
   end
