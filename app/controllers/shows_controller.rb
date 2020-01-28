@@ -1,5 +1,7 @@
-class ShowsController < ApplicationController
-  before_action :set_show, only: [:show, :update, :destroy]
+# frozen_string_literal: true
+
+class ShowsController < OpenReadController
+  before_action :set_show, only: %i[update destroy]
 
   # GET /shows
   def index
@@ -39,13 +41,16 @@ class ShowsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_show
-      @show = Show.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def show_params
-      params.require(:show).permit(:name, :title, :season_number, :total_episodes, :network, :release_date, :trailer_url)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_show
+    @show = Show.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def show_params
+    params.require(:show).permit(:name, :title, :season_number,
+                                 :total_episodes, :network, :release_date,
+                                 :trailer_url)
+  end
 end
