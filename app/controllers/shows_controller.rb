@@ -12,7 +12,7 @@ class ShowsController < OpenReadController
 
   # GET /shows/1
   def show
-    render json: @show
+    render json: Show.find(params[:id])
   end
 
   # POST /shows
