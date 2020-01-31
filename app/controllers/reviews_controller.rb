@@ -12,7 +12,7 @@ class ReviewsController < OpenReadController
 
   # GET /reviews/1
   def show
-    render json: @review
+    render json: Review.new(review_params)
   end
 
   # POST /reviews
@@ -49,6 +49,6 @@ class ReviewsController < OpenReadController
 
   # Only allow a trusted parameter "white list" through.
   def review_params
-    params.require(:review).permit(:title, :body, :rating)
+    params.require(:review).permit(:title, :body, :rating, :show_id)
   end
 end
