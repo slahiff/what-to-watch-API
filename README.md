@@ -1,4 +1,25 @@
-## What to Watch (API)
+## What to Watch (Client)
+
+### Overview
+The What to Watch app is designed to help users make educated decisions about what show they want to binge next! Users can view a show's trailer right in the UI and also leave reviews to let other users know how they felt about it.
+
+### Repositories
+- [Client Repo](https://github.com/slahiff/what-to-watch-client)
+- [API Repo](https://github.com/slahiff/what-to-watch-api)
+
+### Deployed Applications
+
+- [Deployed PT API](https://secret-chamber-24085.herokuapp.com/)
+- [Deployed PT Client](https://nameless-woodland-56196.herokuapp.com/)
+
+### Technologies Used
+- React
+- Rails
+- Axios
+- Node
+- Bootstrap
+- HTML
+- Sass
 
 User Stories:
 
