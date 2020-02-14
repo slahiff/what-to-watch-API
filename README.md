@@ -1,5 +1,7 @@
 ## What to Watch (Client)
 
+!["What to Watch"](https://imgur.com/xK92etg)
+
 ### Overview
 The What to Watch app is designed to help users make educated decisions about what show they want to binge next! Users can view a show's trailer right in the UI and also leave reviews to let other users know how they felt about it.
 
@@ -20,6 +22,12 @@ The What to Watch app is designed to help users make educated decisions about wh
 - Bootstrap
 - HTML
 - Sass
+
+### Unsolved Problems and Roadmap Items:
+- Getting user's email accounts to show on the comments they left.
+- Calculating the average rating score from all the user reviews for a show and displaying that on the shows page along with the show info.
+- Connecting to a 3rd party API to pull in more shows.
+- Introducing pagination to limit around 10 or so shows per page.
 
 User Stories:
 
