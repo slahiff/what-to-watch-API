@@ -12,7 +12,7 @@ The What to Watch app is designed to help users make educated decisions about wh
 ### Deployed Applications
 
 - [Deployed API](https://secret-chamber-24085.herokuapp.com/)
-- [Deployed Client](https://nameless-woodland-56196.herokuapp.com/)
+- [Deployed Client](https://slahiff.github.io/what-to-watch-client/#/)
 
 ### Technologies Used
 - React
