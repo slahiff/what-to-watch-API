@@ -1,6 +1,6 @@
 ## What to Watch (Client)
 
-!["What to Watch"](https://imgur.com/xK92etg)
+![What to Watch Homepage](https://i.imgur.com/xK92etg.png)
 
 ### Overview
 The What to Watch app is designed to help users make educated decisions about what show they want to binge next! Users can view a show's trailer right in the UI and also leave reviews to let other users know how they felt about it.
