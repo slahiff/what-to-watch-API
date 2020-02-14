@@ -12,7 +12,7 @@ class ReviewsController < OpenReadController
 
   # GET /reviews/1
   def show
-    render json: Review.new(review_params)
+    render json: Review.find(params[:id])
   end
 
   # POST /reviews
